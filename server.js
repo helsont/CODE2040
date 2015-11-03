@@ -1,7 +1,8 @@
 var request 				= require('request');
+
+var token 					= 'ZixiQ3R7l4';
 var base 						= 'http://challenge.code2040.org/api';
 var getString 			= '/getstring';
-var token 					= 'ZixiQ3R7l4';
 var validateString	= '/validatestring';
 var haystack 				= '/haystack';
 var validateneedle	= '/validateneedle';
@@ -147,9 +148,9 @@ function stage4() {
 		});
 }
 
-function runTests() {
+(function runTests() {
 	stage1();
 	stage2();
 	stage3();
 	stage4();	
-}
+})();
