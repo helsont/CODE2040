@@ -1,0 +1,19 @@
+{
+  "name": "code2040",
+  "version": "1.0.0",
+  "description": "Project for the API challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helsont/CODE2040.git"
+  },
+  "author": "Helson Taveras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helsont/CODE2040/issues"
+  },
+  "homepage": "https://github.com/helsont/CODE2040#readme"
+}
